@@ -21,7 +21,7 @@
     <header class="header">
         <nav class="navbar">
             <div class="logo">
-                <h2 class="logo-heading">Krishna Varat</h2>
+                <h2 class="logo-heading">Shivam Lahane</h2>
             </div>
             <div class="hamburger" id="hamburger">
                 <i class="fas fa-bars hamburger-icon"></i>
@@ -64,15 +64,18 @@
         <div class="intro">
             <div class="headings">
                 <h3 class="greet-heading">Hello, I'm</h3>
-                <h1 class="my-heading">Krishna Varat</h1>
+                <h1 class="my-heading">Shivam Lahane</h1>
                 <h4 class="sub-heading">
-                    A Software Engineer with 12 years of Experience.
+                    A Software Engineer Student With Good Coding Skill
                 </h4>
             </div>
             <div class="intro-buttons">
                 <button class="btn common-btn">Hire Me</button>
-                <button class="btn ghost-btn" >Get Resume</button>
+                <a href="Shivam_Lahane_Resume.pdf" download="Shivam_Lahane_Resume.pdf">
+                    <button class="btn ghost-btn">Get Resume</button>
+                </a>
             </div>
+            
         </div>
     </section>
     
@@ -390,19 +393,14 @@
             <div class="contact-form-container">
                 <h1 class="greet-heading">Get In Touch</h1>
                 <form class="contact-form" action="https://formspree.io/f/xrbewwko" method="POST">
-                    <input class="form-controls" type="text" 
-                           placeholder="Your Name">
-                    <input class="form-controls" type="text" 
-                           placeholder="Your Email">
-                    <input class="form-controls" type="text" 
-                           placeholder="Your Phone">
-                    <textarea class="form-controls" 
-                              placeholder="Write your message" 
-                              name="message" id="" cols="30"
-                              rows="10">
-                      </textarea>
-                    <input class="form-btn btn common-btn" 
-                           type="submit" value="Send Message">
+                    <input class="form-controls" type="text" name="name" placeholder="Your Name" required>
+                    <input class="form-controls" type="email" name="email" placeholder="Your Email" required>
+                    <input class="form-controls" type="text" name="phone" placeholder="Your Phone">
+                    <textarea class="form-controls" name="message" placeholder="Write your message" cols="30" rows="10" required></textarea>
+                
+                    <input class="form-btn btn common-btn" type="submit" value="Send Message">
+                </form>
+                
                 </form>
             </div>
             <div class="contact-details">
